@@ -20,14 +20,14 @@ meter, progress, output {
 div#tswsidecol {
 	float: right ;
 	width: 20% ;
-	color: #000 ;
-	background-color: #c0b302 ;
+	color: #979797 ;
+	background-color: #044b6b ;
 }
 div#tswcontent {
 	float: right ;
 	width: 80% ;
-	color: #000 ;
-	background-color: #c0b302 ;
+	color: #979797 ;
+	background-color: #044b6b ;
 }
 @media only screen and (max-width: 629px) {
 	div#tswsidecol {
@@ -52,6 +52,6 @@ div#tswsideproper, div#tswothersideproper {
 	padding-right: 5px ;
 }
 div#tswheader {
-	color: #000 ;
-	background-color: #c0b302 ;
+	color: #979797 ;
+	background-color: #044b6b ;
 }
