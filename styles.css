@@ -17,9 +17,36 @@ input, select, button, textarea {
 meter, progress, output {
 	max-width: 100% ;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #baceda;
+}
+
+li a {
+  display: block;
+  color: rgb(21, 58, 36);;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link and background color on hover */
+li a:hover {
+  background-color: #91bed8;
+  color: rgb(21, 58, 36);
+} 
+
+.active {
+  background-color: #4775d8;
+  color: white;
+}
+
 div#tswsidecol {
 	float: right ;
-	width: 20% ;
+	width: 19% ;
 	color: #979797 ;
 	background-color: #044b6b ;
 }
