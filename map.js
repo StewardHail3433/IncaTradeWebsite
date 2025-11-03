@@ -1,3 +1,5 @@
+/// <reference types="leaflet" />
+
 var map = L.map('map').setView([-14, -75], 4.2);
 
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
