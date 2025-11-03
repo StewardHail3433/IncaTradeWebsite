@@ -6,30 +6,38 @@
 <meta name="generator" content="thesitewizard.com's Layout Wizard 4.0.0">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
 </head>
 
 <body>
 
 <div id="tswcontainer">
-	<div id="tswheader">
+	<div id="tswheader" style="background-image:url(tradeRoad.jpeg); background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 100%">
 	<!-- start of header section: insert your logo, etc, here -->
 
-	<p>
-	Placeholder content for your header section. Replace it with your website's logo or name or page title or whatever.
-	</p>
-	<p>&nbsp;</p>
-
+	<h1 style="padding: 20px; color: inherit; background-color: inherit; width: 150px;">Map Your Visit🗺️</h1>
 	<!-- end of header section: insert your logo, etc, above this line -->
 	</div>
 
 	<div id="tswcontent">
 	<div id="tswcontproper">
 	<!-- start of content column: insert your content here -->
-
-	<h1>The Map your Travels</h1>
+	  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
 	<p>
-	Click on a point on the route to learn more about it.
+	The Inca Empire grew economically through their power of road systems in the Andes Mountains. Thanks to these trade routes, people experienced new cultures and connected other empires, however the most successful routes were those enclosed within the Inca Empire. Below you will find an outline of the roads that merchants carried gold, copper, silver, salt and coca. Press on some points to learn more about that location.
 	</p>
+
+	<div id="map"></div>
+	<div id="clickContent"><h1>Click A Point</h1></div>
+
+	<p>(Note: The points of the trade route are based on the map from here, however they were graphed by hand so there are mostly off by some)</p>
+	<script src="map.js"></script>
 	<p>&nbsp;</p>
 
 	<!-- end of content column: put your content above this line -->
@@ -45,8 +53,9 @@
 			<li><a href="index.html">Home</a></li>
 			<li class="active"><a href="map.html">Map</a></li>
 			<li><a href="things.html">Things to do</a></li>
-			<li><a href="places.html">Places To Visits</a></li>
+			<li><a href="rating.html">Ratings and Reviews</a></li>
 			<li><a href="travelMeans.html">Means of travel</a></li>
+			<li><a href="citations.html">Bibliography</a></li>
 		</ul>
 	</p>
 
